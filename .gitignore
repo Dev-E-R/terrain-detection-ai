@@ -1,0 +1,92 @@
+# Dataset y archivos grandes
+dataset/
+data/
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Modelos entrenados (descomentar si quieres subirlos)
+*.h5
+*.keras
+*.pb
+*.ckpt
+*.pth
+*.pkl
+saved_model/
+
+# Cache de Kaggle
+.cache/
+*/.cache/
+kagglehub/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Sistema Operativo
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs y debugging
+*.log
+logs/
+*.out
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Configuración específica del usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
